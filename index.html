@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Caveat:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Markus Yoshizawa</div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="en/index.html" class="nav-link language-switch">🇺🇸 EN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="section">
+            <div class="inicio-container">
+                <div class="inicio-content">
+                    <div class="inicio-text">
+                        <h1>Sou Markus Yoshizawa,</h1>
+                        <p>Estudante de Ciência da Computação, com interesse em Suporte, Cibersegurança e Programação</p>
+                        <br>
+                        <p class="small-text">e fotógrafo profissionalmente amador, de vez em quando.</p>
+                    </div>
+                    <div class="inicio-image">
+                        <img src="assets/images/0D77D843-C6F1-4069-831B-A2DC5D7075D9.jpg" alt="Foto em espelho" width="400">
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/markus-yoshizawa" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/yshizw" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/yug0_" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <h2>Projetos</h2>
+            <div class="projects-grid">
+                <a href="https://github.com/yshizw/password-generator" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="Imagem do gerador de senhas">
+                    </div>
+                    <div class="project-info">
+                        <h3>Gerador de Senhas</h3>
+                        <p class="project-description">Script simples em Python de gerador de senhas, customizável, que inclui 
+                            letras (minúscula e maiúscula), números e símbolos, a partir de entrada e preferências 
+                            do usuário. Opção de senhas em sequências simples ou senhas em sequências embaralhadas.</p>
+                        <p class="project-repo">yshizw/password-generator</p>
+                    </div>
+                </a>
+                <a href="https://github.com/yshizw/hangman_game" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3.png" alt="Imagem do jogo da forca">
+                    </div>
+                    <div class="project-info">
+                        <h3>Jogo da forca em console</h3>
+                        <p class="project-description">Script para um jogo da forca implementado com Python, 
+                            executável no terminal. Usa palavras aleatórias selecionadas a partir de lista predefinida, 
+                            com validação de inputs, controle e registro de tentativas repetidas, progresso 
+                            exibido e ilustrado por meio de ASCII.
+                        </p>
+                        <p class="project-repo">yshizw/hangman_game</p>
+                    </div>
+                </a>
+                <a href="https://github.com/yshizw/directory_lister" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.png" alt="Imagem script bash">
+                    </div>
+                    <div class="project-info">
+                        <h3>Listador de diretório</h3>
+                        <p class="project-description">Script Bash simples que solicita ao usuário um 
+                            caminho/diretório, verifica se ele existe e, em seguida, lista os arquivos e exibe 
+                            detalhes (como permissões, tamanho, datas), salvando essas informações em um
+                            arquivo de nome "directory_content.txt".
+                        </p>
+                        <p class="project-repo">yshizw/directory_lister</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/A860F8FF-1A59-4AC6-AC99-FB14BA12550D.jpg" alt="Fotografia em preto e branco" width="400">
+                </div>
+                <div class="about-text">
+                    <h2>Olá! Me chamo Markus Yoshizawa,</h2>
+                    <p>Estudante de Ciência da Computação com forte interesse em áreas
+                         como Suporte, Cibersegurança e, infelizmente (ou felizmente),
+                        Programação. <br>Sou trilíngue, com proficiência em Inglês fluente e Japonês
+                        intermediário (mas com fluência em conversação e certificação JLPT N3).<br>
+                        Também tiro algumas fotos no meu tempo livre, como hobby :)
+                    </p>
+                    <p>Atualmente em processo de transição de carreira, onde venho estudando diligentemente
+                        e buscando certificações para validar meu conhecimento. Paralelo à faculdade,
+                        no momento estou matriculado em cursos como: Code in Place 2025 (Stanford University), Google IT Support Professional
+                        Certificate, Google Cybersecurity Professional Certificate, entre outros,
+                        todos com emissão de certificação posterior.<br> De forma a consolidar ainda mais
+                        o conhecimento adquirido, também pretendo nos próximos meses me aplicar e obter certificados COMPTIA,
+                        com foco em Network+ e, em seguida, Security+, além das mencionadas previamente.                   
+                    </p>
+                    <p></p>
+                    <br>
+                    <h4>Hard Skills (em constante desenvolvimento) :</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>Linux/Bash</li>
+                        <li>SQL</li>
+                        <li>HTML, CSS e um pouco de JavaScript</li>
+                      </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2><p><span class="line" style="text-decoration: line-through;">Contrate-me</span><br>Contate-me</p></h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="text" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="mailto:markus.yoshizawa@gmail.com" class="footer-email">markus.yoshizawa@gmail.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
