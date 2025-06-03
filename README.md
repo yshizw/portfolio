@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-> 🇧🇷 [Documentação em português](README.pt-BR.md)
+> 🇧🇷 [Documentação em português](README.pt_BR.md)
 
 Welcome to my portfolio!  
 This repository was created to showcase my personal portfolio, which contains some of my projects, an onverview about me and my contact information.
