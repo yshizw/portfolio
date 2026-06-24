@@ -38,9 +38,24 @@ document.addEventListener("DOMContentLoaded", () => {
         form.addEventListener("submit", (event) => {
             event.preventDefault();
 
-            const name = document.querySelector("input[name=name]").value;
-            const email = document.querySelector("input[name=email]").value;
-            const text = document.querySelector("textarea[name=text]").value;
+            function sanitizeInput(str) {
+                return str.trim().replace(/[<>]/g, "").slice(0, 1000);
+            }
+
+            function escapeFormulaInjection(str) {
+                return /^[=+\-@]/.test(str) ? "'" + str : str;
+            }
+
+
+            const name = escapeFormulaInjection(sanitizeInput(document.querySelector("input[name=name]").value));
+            const email = sanitizeInput(document.querySelector("input[name=email]").value);
+            const text = escapeFormulaInjection(sanitizeInput(document.querySelector("textarea[name=text]").value));
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert(getMessage("error"));
+                return;
+            }
 
             fetch("https://api.sheetmonkey.io/form/onCm3xPp2zS7VdxCCPYbRf", {
                 method: "POST",
