@@ -190,6 +190,7 @@ h1, h2, h3 {
 
 .about-text {
     flex: 1;
+    min-width: 0;
 }
 
 .about-text h2 {
@@ -530,12 +531,7 @@ h1, h2, h3 {
 }
 
 @media (min-width: 900px) {
-  #sobre .about-text ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    column-gap: 2rem;
-  }
+
   #sobre .about-image {
     margin-top: 7rem;
 }
