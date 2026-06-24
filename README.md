@@ -2,23 +2,13 @@
 
 > 🇧🇷 [Documentação em português](README.pt_BR.md)
 
-Welcome to my portfolio!  
-This repository was created to showcase my personal portfolio, which contains some of my projects, an onverview about me and my contact information.
+This repository contains my personal website showcasing some projects, information about me and contact details.
 
 🔗 [Link for the portfolio](https://yshizw.github.io/portfolio)
 
-## 🔧 Technologies used
-
-- HTML5  
-- CSS3  
-- JavaScript
-- Python (for projects)
-- Bash (for projects)
-
 ## 📫 Contact info
 
-Feel free to reach out if you have any questions:
+Feel free to reach out:
 
 - Email: markus.yoshizawa@gmail.com  
 - LinkedIn: [Markus Yoshizawa](https://www.linkedin.com/in/markus-yoshizawa)  
-- GitHub: [@yshizw](https://github.com/yshizw)
